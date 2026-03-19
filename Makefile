@@ -153,6 +153,7 @@ install-fake-crds:
 	kubectl apply -f test/functional/resources/crds/managedclusteraddons_crd.yaml
 	kubectl apply -f test/functional/resources/crds/manifestworks_crd.yaml
 	kubectl apply -f test/functional/resources/crds/clusterversions_crd.yaml
+	kubectl apply -f test/functional/resources/crds/apiservers_crd.yaml
 	kubectl apply -f test/functional/resources/crds/servicemonitor_crd.yaml
 	kubectl apply -f test/functional/resources/crds/prometheusrules_crd.yaml
 	@sleep 10 
